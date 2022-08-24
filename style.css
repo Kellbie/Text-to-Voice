@@ -1,0 +1,93 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: rgb(165, 105, 222);
+  }
+
+  #text {
+    width:45rem;
+    height: 10rem;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+    border-radius: 1rem;
+    text-decoration: none;   
+    color: white;
+    background-color: burlywood; 
+    font-size: 2rem;
+    scroll-behavior: smooth;
+    cursor: pointer;
+;
+  }
+  .robot{
+    margin-left: -5rem;
+    margin-bottom: 3rem;
+  }
+  .first{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-left:65rem;
+    margin-top:-19rem ;
+  }
+  #speed{
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+  }
+  .fast{
+    color: blanchedalmond;
+  }
+  #play-button{
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    width: 15.5rem;
+    height: 2.5rem;
+    margin-left: 64.8rem;
+    margin-top: 1.5rem;
+  }
+
+  #pause-button{
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    width: 15.5rem;
+    height: 2.5rem;
+    margin-left: 64.8rem;
+    margin-top: 1.5rem;
+  }
+  #stop-button{
+    border-radius: 1rem;
+    text-align: center;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    width: 15.5rem;
+    height: 2.5rem;
+    margin-left: 64.8rem;
+    margin-top: 1.5rem;
+  }
+
+  h1{
+    color: blanchedalmond;
+    margin-left: 23rem;
+    margin-top: 5rem;
+    font-size: 5rem;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  :hover h1 {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
